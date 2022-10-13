@@ -1,0 +1,459 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*All content related to the nav at the top of page*/
+header nav > *{
+  width: 100%;
+  margin: 20px 0%; 
+}
+
+header nav li{  
+  float: left;
+  font-size:14px;
+  list-style: none;
+}
+.button
+{
+  background-color: rgba(102,118,138,255);
+  border: 1px rgba(102,118,138,255);
+  color: white;
+}
+
+.border1{
+  margin-left: 8%;
+ 
+}
+
+.tech{
+  margin-left: 1%;
+}
+
+.ethical{
+  margin-left: 1%;
+}
+
+.adv{
+  margin-left: 1%;
+}
+
+.dis{
+  margin-left: 1%;
+}
+
+.choi{
+  margin-left: 1%;
+}
+
+.ref{
+  margin-left: 1%;
+}
+
+.PS{
+  margin-left: 1%;
+}
+
+.GT{
+  margin-left: 1%;
+}
+
+.Mech{
+  margin-left: 1%;
+}
+
+
+.reducemargin{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
+
+
+/******************************************
+/* Header
+/*******************************************/
+
+header{
+  border: 1px solid black;
+  background-color:rgba(102,118,138,255) ;
+  height: 550px;
+  width: 70%;
+  margin-left: 15%;
+  color: white;
+  margin-bottom: 5%;
+}  
+
+header section{
+  margin-top: 8%;
+  margin-left: 20%;
+}
+
+header section h1{
+  font-size: 62px;
+  padding-right: 150px;
+  width: 90%;
+}
+
+header nav img{
+  width: 200px;
+  margin: 7px 0 7px 60px;
+  
+}
+
+header section span > img {
+  width: 26px;
+  padding-top:20px ;
+}
+
+.marginf li a{
+  color: white;
+}
+
+.push a{
+  color: white;
+}
+/******************************************
+/* header Classes 
+/*******************************************/
+
+.push{
+  padding-left: 35%;
+}
+
+.pushimage{
+  padding-left: 10%;
+}
+
+.marginf{
+  padding-left:0 ;
+}
+
+#blueback
+{
+  background-color:rgba(102,118,138,255) ;
+  color: white;
+}
+
+
+
+
+.pushp{
+  padding-right: 100px;
+  text-align: center;
+  margin-bottom: 75px;
+  width: 80%;
+  
+}
+
+.seeclasses33{
+  border: 2px solid #b9bbbc;
+  width: 150px;
+  height: 45px;
+  color:solid white;
+  margin-left: 28%;
+  padding: 15px;
+  background-color: rgba(102,118,138,255);
+}
+
+.seeclasses33 a{
+  color: white;
+}
+
+.seeclasses a{
+  color: white;
+}
+
+.seeclasses1 a{
+  color: white;
+}
+
+.widthc{
+  height: 70%;
+}
+
+/******************************************
+/* Section
+/*******************************************/
+body section > section{
+  float: left;
+  border: 1px solid white;
+  height: 200px;
+  width: 70%;
+  margin-left: 15%;
+  color: black;
+}  
+
+body section > section h2{
+  padding-left: 44.5%;
+  padding-top: 70px;
+}
+
+body section > section p{
+  padding-left: 33%;
+}
+
+/******************************************
+/* Section Classes 
+/                                                                                                                       
+
+/******************************************
+/* Main
+/*******************************************/
+
+
+body main{
+  float: left;
+  border: 1px solid rgba(219,223,226,255);
+  height: 700px;
+  width: 70%;
+  margin-left: 15%;
+  color: black;
+  background-color: rgba(219,223,226,255);
+  border: 1px solid black;
+} 
+
+body main > section{
+  float: left;
+  width: 400px;
+  height: 250px;
+  margin-top: 120px;
+  margin-left: 175px;
+  margin-bottom: 25px;
+  border: 1px solid black;
+  background-color: #66768a ;
+} 
+
+body main div{
+  width: 50%;
+  float: left;
+}
+
+body main > div a{
+  color: black;
+  
+}
+/******************************************
+/* Main Classes 
+/*******************************************/
+
+.h21{
+  padding-left: 42.1%;
+  margin-bottom: 10%;
+  border: 2px solid #b9bbbc;
+  width: 150px;
+  height: 45px;
+  color:solid white;
+  margin-left: 40.5%;
+  padding: 1% 3.5%;
+  background-color: rgba(102,118,138,255);
+}
+
+.h21 a{
+  color: black;
+ 
+}
+
+.text123{
+  margin-top: 3%;
+  background-color: white;
+  padding-bottom: 30%;
+  margin-left: 2%;
+}
+
+.h3padding{
+  padding-left: 305px;
+  margin-right: 0;
+  width: 70%;
+}
+
+.ppadding{
+  padding-left: 195px; 
+  width: 90%;
+  margin-right: 0;
+}
+
+.seeclasses{
+  border: 2px solid #b9bbbc;
+  color: white;
+  padding-left: 3.5%;
+  padding-top:1.6%;
+  margin-left:293px ;
+  width: 150px;
+  height: 45px;
+}
+
+.seaclasses a{
+  color: white;
+}
+
+.h3padding2{
+  padding-left: 210px;
+  margin-right: 0;
+  width: 70%;
+}
+
+.ppadding2{
+  padding-left: 100px; 
+  width: 70%;
+  margin-right: 0;
+}
+
+.seeclasses1{
+  border: 2px solid #b9bbbc;
+  color: white;
+  padding-left: 4.0%;
+  padding-top:1.6%;
+  margin-left:203px ;
+  width: 180px;
+  height: 45px;
+}
+
+
+/******************************************
+/* Post-Main Section
+/*******************************************/
+body section + header + section + main + section{
+  float: left;
+  border: 1px solid black;
+  height: 500px;
+  width: 70%;
+  margin-left: 15%;
+  color: black;
+}  
+
+
+body main + section{
+  padding-left: 25%;
+  padding-top: 100px;
+}
+
+body main + section p + p a{
+  color: black;
+}
+
+
+/******************************************
+/* Post-Main Section Classes
+/*******************************************/
+
+.seeclasses2{
+  border: 2px solid #b9bbbc;
+  width: 175px;
+  height: 45px;
+  color:solid white;
+  margin-left: 10%;
+  text-align: center;
+  padding: 10px 15px;
+  background-color: rgba(102,118,138,255);
+}
+
+.borders
+{
+  border: 0px solid rgb(82, 73, 73);
+  background-color: white;
+}
+/******************************************
+/* Footer
+/*******************************************/
+
+
+.fixed
+{
+  float: left;
+  border: 1px solid rgba(219,223,226,255);
+  height: 670px;
+  width: 70%;
+  margin-left: 15%;
+  color: black;
+  background-color: rgba(102,118,138,255);
+  border: 1px solid black;
+}
+
+.within
+{
+  float: left;
+  width: 350px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 16%;
+  margin-bottom: 50px;
+  background-color: white ;
+}
+
+.within1
+{
+  float: left;
+  width: 350px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 36.8%;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  background-color: #66768a ;
+}
+
+.within a{
+  color: black;
+}
+
+.within3
+{
+  float: left;
+  width: 350px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 38%;
+  margin-bottom: 50px;
+  background-color: white ;
+}
+
+.within3 a{
+  color: black;
+}
+.check
+{
+  width: 100%;
+  height: 200px;
+  float: left;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+
+.first
+{
+  color:solid  black;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+.addmargin
+{
+  margin-bottom: 15%;
+}
+
+.seeclasses2 a{
+  color: black;
+}
+
