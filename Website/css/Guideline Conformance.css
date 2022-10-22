@@ -1,0 +1,149 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+header
+{
+     border-top: 1px solid black;
+     border-bottom: 1px solid black;
+     background-color:rgba(102,118,138,255) ;
+     height: 937px;
+     width: 70%;
+     margin-left: 15%;
+     color: white;
+     float: left;
+}
+
+header nav > *{
+     width: 100%;
+     margin: 20px 0%; 
+   }
+   
+header nav li{  
+     float: left;
+     font-size:14px;
+     list-style: none;
+   }
+.button{
+     background-color: rgba(102,118,138,255);
+     border: 1px rgba(102,118,138,255);
+     color: white;
+   }
+   
+.border1{
+     margin-left: 12%;
+    
+   }
+   
+.tech{
+     margin-left: 1%;
+   }
+   
+.ethical{
+     margin-left: 1%;
+   }
+   
+.adv{
+     margin-left: 1%;
+   }
+   
+.dis{
+     margin-left: 1%;
+   }
+   
+.choi{
+     margin-left: 1%;
+   }
+   
+   .ref{
+     margin-left: 1%;
+   }
+   
+.PS{
+     margin-left: 1%;
+   }
+   
+.GT{
+     margin-left: 1%;
+   }
+   
+.Mech{
+     margin-left: 1%;
+   }
+   
+   
+.reducemargin{
+     padding-left: 0;
+     padding-right: 0;
+}
+.secondlast{
+     width: 9.5%;
+}
+
+.reducemargin{
+     padding-left: 0;
+     padding-right: 0;
+}
+
+.secondsection{
+     margin-left: 32%;
+     margin-top: 7%;
+     height: 9%;
+     width: 45%;
+     padding-top: 0.6%;
+     font-size: larger;
+     /*background-color: black;*/
+     color: black;
+}
+
+.thirdsection{
+     padding-left: 16%;
+     height: 5%;
+     width: 40%;
+     border: 1px solid black;
+     float: left;
+     margin-top: 5%;
+     margin-right: 80%;
+     margin-bottom: 1%;
+     text-decoration: underline;
+     color: white;
+     padding-bottom: 5%;
+     background-color: black;
+}
+
+.fourthsection{
+     margin-left: 15%;
+     height: 62%;
+     width: 70%;
+     /*border: 1px solid black;*/
+     float: left;
+     font-size: larger;
+}
+
+.marginadded{
+     margin-bottom: 5%;
+}
+
+.borderoutline{
+     width: 100%;
+     border: 1px solid black;
+}
+
+.outerborder{
+     border: 1px solid black;
+}
